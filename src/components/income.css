@@ -1,0 +1,74 @@
+.income-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .income-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .income-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .income-form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .income-form button {
+    padding: 10px 20px;
+    background-color: #17a2b8;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .income-form button:hover {
+    background-color: #138496;
+  }
+  
+  .income-list {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .income-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .income-list table th {
+    background-color: #17a2b8;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    border: none;
+  }
+  
+  .income-list table td {
+    border: none;
+    padding: 10px;
+  }
+  
+  .income-list table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
